@@ -49,6 +49,11 @@
                             <constraint firstItem="gau-gU-L61" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="ybg-cW-yW1"/>
                         </constraints>
                     </view>
+                    <connections>
+                        <outlet property="FirstLabel" destination="nrg-QH-RaK" id="dQ3-dJ-zrD"/>
+                        <outlet property="SecondLabel" destination="XR9-k7-kJ9" id="Bmk-vh-Mlx"/>
+                        <outlet property="ThirdLabel" destination="gau-gU-L61" id="0Jm-dR-kgS"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
